@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"BATTRY1, BATTRY2",AMASS_XT30U-M_1x02_P5.0mm_Vertical,2,Conn_01x02_Pin,
+C1,CP_Elec_10x10.5,1,C_Polarized,
+"DCDC_1, DCDC_2, MDR_1",PinSocket_1x03_P2.54mm_Vertical,3,Conn_01x03_Pin,
+J1,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,
+LINE_1,JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal,1,Conn_01x02_Pin,
+MAIN1,JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal,1,Conn_01x03_Pin,
+SW1,AMASS_XT30U-M_1x02_P5.0mm_Vertical,1,SW_DPST_x2,
