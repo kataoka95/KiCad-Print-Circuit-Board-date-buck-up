@@ -4145,8 +4145,8 @@
 		(uuid "ae869ab7-9549-4524-bc57-b444dfb660bc")
 	)
 	(no_connect
-		(at 142.24 203.2)
-		(uuid "c906b15e-16f7-4a44-9075-1e482514dc20")
+		(at 111.76 165.1)
+		(uuid "be8398f3-f4e5-417f-ac6d-b1c07e6c7604")
 	)
 	(no_connect
 		(at 142.24 205.74)
@@ -11267,73 +11267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88a2dfcd-4015-4b49-a5e1-79510d0fec8d")
-		(property "Reference" "#PWR089"
-			(at 115.57 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 107.95 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7416de2a-d27b-43d3-be1b-86fcb85fa30f")
-		)
-		(instances
-			(project "BALL Sensor V1.1"
-				(path "/e353475c-ccee-4a6a-83c9-f0cd0d70519c"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 148.59 175.26 90)
 		(unit 1)
@@ -12658,6 +12591,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 149.86 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3703dad-7a9a-42dc-af25-c3ad37cdf069")
+		(property "Reference" "#PWR044"
+			(at 156.21 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 203.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fa6a588-1f89-4b87-939e-99982e68ddf8")
+		)
+		(instances
+			(project "BALL Sensor V1.1"
+				(path "/e353475c-ccee-4a6a-83c9-f0cd0d70519c"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 127 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13408,6 +13408,73 @@
 			(project "BALL Sensor V1.1"
 				(path "/e353475c-ccee-4a6a-83c9-f0cd0d70519c"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf7f0458-ca24-4c6a-84f3-7347237eedd1")
+		(property "Reference" "R1"
+			(at 146.05 201.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 146.05 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 204.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8e09dba-9117-4e96-9a5c-72b8389fcd1e")
+		)
+		(pin "1"
+			(uuid "d9c09bc9-d95f-4b22-b818-149299bb6ac6")
+		)
+		(instances
+			(project ""
+				(path "/e353475c-ccee-4a6a-83c9-f0cd0d70519c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
