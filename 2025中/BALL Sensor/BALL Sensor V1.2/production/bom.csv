@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"A0, A1, A10, A11, A12, A13, A14, A15, A2, A3, A4, A5, A6, A7, A8, A9",TSSP4038,16,TSSP4038,
+D18,D_SMA,1,SS14,
+J2,PinHeader_1x09_P2.54mm_Vertical,1,Conn_01x09_Pin,
+J3,PinSocket_2x04_P2.54mm_Vertical,1,Conn_02x04_Odd_Even,
+U1,XIAO-ESP32S3-DIP,1,XIAO ESP32 S3,
+U2,SSOP-24_5.3x8.2mm_P0.65mm,1,CD74HC4067SM,

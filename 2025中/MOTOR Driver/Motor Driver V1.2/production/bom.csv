@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3, C4",293D157X9016D2TE3,4,150uF,
+"C5, C6, C7, C8",0603,4,0.1uF,
+D1,0603,1,LED,
+"IC1, IC2, IC3, IC4",BD63150AFM-E2,4,BD63150AFM-E2,
+J1,FFC conector 0.5mm Pich,1,Conn_01x08_Pin,
+J2,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,1,Conn_01x03_Pin,
+"MOTOR1, MOTOR2, MOTOR3, MOTOR4",JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal,4,Conn_01x02_Pin,
+"R1, R3, R5, R7",0603,4,1.2k,
+R17,0603,1,150,
+"R2, R4, R6, R8",0603,4,1k,
